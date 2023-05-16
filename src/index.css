@@ -11,10 +11,10 @@ Variables
   --clr-primary-3: hsl(205, 72%, 37%);
   --clr-primary-4: hsl(205, 63%, 48%);
   /* primary/main color */
-  --clr-primary-5: hsl(205, 78%, 60%);
+  --clr-primary-5: #6D98BA;
   /* lighter shades of primary color */
   --clr-primary-6: hsl(205, 89%, 70%);
-  --clr-primary-7: hsl(205, 90%, 76%);
+  --clr-primary-7: #011936;
   --clr-primary-8: hsl(205, 86%, 81%);
   --clr-primary-9: hsl(205, 90%, 88%);
   --clr-primary-10: hsl(205, 100%, 96%);
@@ -28,9 +28,9 @@ Variables
   --clr-grey-6: hsl(209, 23%, 60%);
   --clr-grey-7: hsl(211, 27%, 70%);
   --clr-grey-8: hsl(210, 31%, 80%);
-  --clr-grey-9: hsl(212, 33%, 89%);
-  --clr-grey-10: hsl(210, 36%, 96%);
-  --clr-white: #fff;
+  --clr-grey-9: hsl(0, 0%, 100%);
+  --clr-grey-10: hsl(46, 100%, 61%);
+  --clr-white: #fafafa;
   --clr-red-dark: hsl(360, 67%, 44%);
   --clr-red-light: hsl(360, 71%, 66%);
   --clr-green-dark: hsl(125, 67%, 44%);
@@ -211,11 +211,13 @@ main {
 }
 .author {
   margin-bottom: 0.25rem;
+  font-size: 1.7rem;
 }
 .job {
   margin-bottom: 0.5rem;
   text-transform: uppercase;
-  color: var(--clr-primary-5);
+  letter-spacing: 0.20rem;
+  color: var(--clr-black);
   font-size: 0.85rem;
 }
 .info {
@@ -223,30 +225,20 @@ main {
 }
 .prev-btn,
 .next-btn {
-  color: var(--clr-primary-7);
+  color: var(--clr-primary-5);
   font-size: 1.25rem;
   background: transparent;
   border-color: transparent;
   margin: 0 0.5rem;
+  margin-top: 1rem;
   transition: var(--transition);
   cursor: pointer;
 }
 .prev-btn:hover,
 .next-btn:hover {
-  color: var(--clr-primary-5);
+  color: var(--clr-black);
 }
-.random-btn {
-  margin-top: 0.5rem;
-  background: var(--clr-primary-10);
-  color: var(--clr-primary-5);
-  padding: 0.25rem 0.5rem;
-  text-transform: capitalize;
-  border-radius: var(--radius);
-  transition: var(--transition);
-  border-color: transparent;
-  cursor: pointer;
-}
-.random-btn:hover {
-  background: var(--clr-primary-5);
-  color: var(--clr-primary-1);
+.icons {
+  width: 1.5rem;
+  height: 1.5rem;
 }
