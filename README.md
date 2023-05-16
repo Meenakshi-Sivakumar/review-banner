@@ -6,7 +6,7 @@
 
 <div align="center">
 
-![Review Banner](screenshot.png)
+![Review Banner](review-banner.PNG)
 
 </div>
 
