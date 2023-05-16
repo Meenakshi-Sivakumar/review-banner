@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import reviews from './data';
+import React from 'react';
 import Review from './Review';
 
 function App() {
