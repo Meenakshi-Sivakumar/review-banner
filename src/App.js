@@ -1,7 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
+import reviews from './data';
 import Review from './Review';
+
 function App() {
-  return <h2>reviews project setup</h2>;
+  
+  return (
+    <main>
+      <section className='container'>
+        <Review />
+      </section>
+    </main>
+  );
 }
 
 export default App;
